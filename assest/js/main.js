@@ -95,9 +95,6 @@ document.querySelector("#book_form").addEventListener('submit', (e) => {
 
     }
     Book_function.clearFilds()
-
-
-
 })
 
 document.querySelector(".table_body").addEventListener("click", e => {
@@ -106,5 +103,5 @@ document.querySelector(".table_body").addEventListener("click", e => {
 
 })
 document.addEventListener("DOMContentLoaded", () => {
-    Book_function.displayBook()
+    Book_function.displayBook();
 })
