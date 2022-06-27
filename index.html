@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book List</title>
+    <!-- css link hear -->
+    <link rel="stylesheet" href="assest/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="text-center">My <span class="text-danger">Book</span> List</h2>
+        <form action="#" id="book_form">
+            <div class="form-group">
+                <label for="titel">Book Name</label>
+                <input type="text" id="titel" class="form-control" autocomplete="off">
+            </div>
+            <div class="form-group">
+                <label for="auther">Auther</label>
+                <input type="text" id="auther" class="form-control" autocomplete="off">
+            </div>
+            <div class="form-group">
+                <label for="isbn">Isbn</label>
+                <input type="text" id="isbn" class="form-control" autocomplete="off">
+            </div>
+            <input type="submit" class="btn-danger btn-block py-2" value="Submit" id="aa">
+        </form>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Titel</th>
+                    <th>Auther</th>
+                    <th>Isbn</th>
+                    <th>Delate</th>
+                </tr>
+            </thead>
+            <tbody class="table_body">
+            </tbody>
+        </table>
+    </div>
+
+
+    <!-- <div class="container mt-4">
+        <h1 class="display-4 text-center">
+            <i class="fas fa-book-open text-primary"></i> My<span class="text-primary">Book</span>List</h1>
+        <form id="book-form">
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input type="text" id="title" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="author">Author</label>
+                <input type="text" id="author" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="isbn">ISBN#</label>
+                <input type="text" id="isbn" class="form-control">
+            </div>
+            <input type="submit" value="Add Book" class="btn btn-primary btn-block">
+        </form>
+        <table class="table table-striped mt-5">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>ISBN#</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="book-list"></tbody>
+        </table>
+    </div> -->
+
+    <script src="assest/js/main.js"></script>
+
+</body>
+
+</html>
